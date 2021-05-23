@@ -1,0 +1,73 @@
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+  .spacer {
+      flex: 1;
+      height: 100%;
+  }
+
+  .search-field {
+    font-size: 11px;
+    background-color: rgb(240, 240, 240);
+    margin-right: 40px;
+  }
+
+  button {
+      cursor: pointer;
+
+      :hover {
+        transform: scale(1.1);
+      }
+  }
+
+  .no-padding {
+      padding: 0
+  }
+
+.toolbar {
+    height: 10%;
+    background-color: rgb(240, 240, 240);
+}
+
+.toolbar-icon {
+    border: none;
+    margin: 12px
+}
+
+.margin-right-16 {
+    margin-right: 16px;
+}
+
+.card {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow: scroll;
+    justify-content: center;
+    background-color:silver;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.card-chield {
+    height: 220px;
+    width: 12%;
+    margin:10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.637)
+}
+
+.chart-header {
+    width: 100%;
+    height: 4%;
+    background-color: gray;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
